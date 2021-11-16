@@ -5,10 +5,17 @@
   },
   "class": "light",
   "capabilities": [
-    "onoff"
+    "onoff",
+    "measure_power",
+    "meter_power"
   ],
   "capabilitiesOptions": {
+    "measure_power": {
+      "isApproximated": true
+    }
   },
+  "platforms": ["local"],
+  "connectivity": ["zigbee"],
   "zigbee": {
     "manufacturerName": "Sunricher",
     "productId": [
@@ -18,7 +25,6 @@
     ],
     "endpoints": {
       "1": {
-
         "clusters": [
           0,
           3,
@@ -31,7 +37,8 @@
         ],
         "bindings": [
           6,
-          25
+          1794,
+          2820
         ]
       }
     },

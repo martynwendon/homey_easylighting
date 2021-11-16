@@ -12,6 +12,8 @@
       "CR2450"
     ]
   },
+  "platforms": ["local"],
+  "connectivity": ["zigbee"],
   "zigbee": {
     "manufacturerName": "Sunricher",
     "productId": [
@@ -27,11 +29,6 @@
           2821
         ],
         "bindings": [
-          3,
-          6,
-          8,
-          25,
-          768
         ]
       }
     },

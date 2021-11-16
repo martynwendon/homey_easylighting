@@ -10,5 +10,32 @@
   },
   "1.0.3": {
     "en": "Added state report for ZigBee device, bug fixes and improvements."
+  },
+  "1.0.4": {
+    "en": "Added measure power, meter power for ZG9100A_S."
+  },
+  "1.0.5": {
+    "en": "Added support for ZGRC-KEY-039."
+  },
+  "1.0.6": {
+    "en": "Make ZigBee device pairing faster."
+  },
+  "1.0.7": {
+    "en": "Added support for ZG Curtain."
+  },
+  "1.0.8": {
+    "en": "Add meter power, measure power for ZG9040A_S."
+  },
+  "1.0.9": {
+    "en": "Add support for ZV2835RAC-S, change the Zwave device to insecure."
+  },
+  "1.0.10": {
+    "en": "Fixes an issue that some Z-Wave devices pairing failed."
+  },
+  "1.0.11": {
+    "en": "Add support for ZV9092A (Thermostat)"
+  },
+  "1.0.12": {
+    "en": "The ZV9020A can be added now."
   }
 }

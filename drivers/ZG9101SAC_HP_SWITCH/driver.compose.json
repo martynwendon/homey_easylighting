@@ -9,6 +9,8 @@
   ],
   "capabilitiesOptions": {
   },
+  "platforms": ["local"],
+  "connectivity": ["zigbee"],
   "zigbee": {
     "manufacturerName": "Sunricher",
     "productId": [
@@ -27,8 +29,7 @@
           4096
         ],
         "bindings": [
-          6,
-          25
+          6
         ]
       }
     },

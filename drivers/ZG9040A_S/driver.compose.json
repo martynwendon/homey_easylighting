@@ -6,7 +6,9 @@
   "class": "light",
   "capabilities": [
     "onoff",
-    "dim"
+    "dim",
+    "measure_power",
+    "meter_power"
   ],
   "capabilitiesOptions": {
     "dim": {
@@ -16,8 +18,15 @@
     },
     "onoff": {
       "setOnDim": false
+    },
+    "capabilitiesOptions": {
+      "measure_power": {
+        "isApproximated": true
+      }
     }
   },
+  "platforms": ["local"],
+  "connectivity": ["zigbee"],
   "zigbee": {
     "manufacturerName": "Sunricher",
     "productId": [
@@ -40,8 +49,7 @@
         ],
         "bindings": [
           6,
-          8,
-          25
+          8
         ]
       }
     },

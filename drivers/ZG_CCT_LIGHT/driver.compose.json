@@ -24,6 +24,8 @@
       "setOnDim": false
     }
   },
+  "platforms": ["local"],
+  "connectivity": ["zigbee"],
   "zigbee": {
     "manufacturerName": "Sunricher",
     "productId": [
@@ -46,8 +48,7 @@
         ],
         "bindings": [
           6,
-          8,
-          25
+          8
         ]
       }
     },

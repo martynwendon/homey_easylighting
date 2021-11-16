@@ -12,6 +12,8 @@
     "large": "/drivers/ZV9100A_S/assets/images/large.png",
     "small": "/drivers/ZV9100A_S/assets/images/small.png"
   },
+  "platforms": ["local"],
+  "connectivity": ["zwave"],
   "zwave": {
     "manufacturerId": 816,
     "productTypeId": [
@@ -20,6 +22,7 @@
     "productId": [
       53263
     ],
+    "includeSecure": false,
     "learnmode": {
       "image": "/drivers/ZV9100A_S/assets/learnmode.svg",
       "instruction": {
