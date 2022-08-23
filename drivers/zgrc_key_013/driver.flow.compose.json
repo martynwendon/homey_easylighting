@@ -1,0 +1,312 @@
+{
+  "triggers": [
+    {
+      "id": "zgrc_key_013_on",
+      "title": {
+        "en": "Turned on"
+      },
+      "titleFormatted": {
+        "en": "Group [[group]] turned on"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": {
+            "en": "Group"
+          },
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zgrc_key_013_off",
+      "title": {
+        "en": "Turned off"
+      },
+      "titleFormatted": {
+        "en": "Group [[group]] turned off"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": {
+            "en": "Group"
+          },
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zgrc_key_013_move_level_up",
+      "title": {
+        "en": "Move level up"
+      },
+      "titleFormatted": {
+        "en": "Group [[group]] move level up"
+      },
+      "hint": {
+        "en": "The rate range from 0.00 to 1.00"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": {
+            "en": "Group"
+          },
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zgrc_key_013_move_level_down",
+      "title": {
+        "en": "Move level down"
+      },
+      "titleFormatted": {
+        "en": "Group [[group]] move level down"
+      },
+      "hint": {
+        "en": "The rate range from 0.00 to 1.00"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": {
+            "en": "Group"
+          },
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zgrc_key_013_move_level_stopped",
+      "title": {
+        "en": "Move level stopped"
+      },
+      "titleFormatted": {
+        "en": "Group [[group]] move level stopped"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": {
+            "en": "Group"
+          },
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zgrc_key_013_recall_scene",
+      "title": {
+        "en": "Recall scene"
+      },
+      "titleFormatted": {
+        "en": "Recall scene [[group]]"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": {
+            "en": "Scene ID"
+          },
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zgrc_key_013_store_scene",
+      "title": {
+        "en": "Store scene"
+      },
+      "titleFormatted": {
+        "en": "Store scene [[group]]"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": {
+            "en": "Scene ID"
+          },
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "2"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

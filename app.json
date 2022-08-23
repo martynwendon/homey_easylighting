@@ -1,6 +1,8 @@
 {
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.easyhome.easylighting",
-  "version": "1.0.12",
+  "homeyCommunityTopicId": 65588,
+  "version": "1.0.22",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -35,11 +37,7 @@
     "name": "Wang Wendong",
     "email": "sunricher_src@163.com"
   },
-  "bugs": {
-    "url": "https://github.com/easyhomesrc/homey_easylighting/issues"
-  },
-  "source": "https://github.com/easyhomesrc/homey_easylighting.git",
-  "support": "https://github.com/easyhomesrc/homey_easylighting.git",
+  "support": "https://community.homey.app/t/easylighting-app/65588",
   "flow": {
     "triggers": [
       {
@@ -194,24 +192,21 @@
             "type": "number",
             "title": {
               "en": "Color X"
-            },
-            "example": 0.1
+            }
           },
           {
             "name": "color_y",
             "type": "number",
             "title": {
               "en": "Color Y"
-            },
-            "example": 0.1
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -269,16 +264,14 @@
             "type": "number",
             "title": {
               "en": "Group ID"
-            },
-            "example": 0
+            }
           },
           {
             "name": "scene_id",
             "type": "number",
             "title": {
               "en": "Scene ID"
-            },
-            "example": 1
+            }
           }
         ]
       },
@@ -336,23 +329,21 @@
             "type": "number",
             "title": {
               "en": "Group ID"
-            },
-            "example": 0
+            }
           },
           {
             "name": "scene_id",
             "type": "number",
             "title": {
               "en": "Scene ID"
-            },
-            "example": 1
+            }
           }
         ]
       },
       {
         "id": "ZG2819S_RGBW_level_step_with_onoff",
         "title": {
-          "en": "Step level (with On/Off)"
+          "en": "Step level"
         },
         "titleFormatted": {
           "en": "Group [[group]] step level"
@@ -403,31 +394,28 @@
             "type": "number",
             "title": {
               "en": "Mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "step_size",
             "type": "number",
             "title": {
               "en": "Step size"
-            },
-            "example": 0.2
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
       {
         "id": "ZG2819S_RGBW_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Move level"
         },
         "titleFormatted": {
           "en": "Group [[group]] move level"
@@ -478,23 +466,21 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
       {
         "id": "ZG2819S_RGBW_level_stop_with_onoff",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Stop level"
         },
         "titleFormatted": {
           "en": "Group [[group]] stop level"
@@ -594,16 +580,14 @@
             "type": "number",
             "title": {
               "en": "Color temperature"
-            },
-            "example": 0
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -661,16 +645,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -780,16 +762,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -822,7 +802,7 @@
       {
         "id": "ZG2833K2_EU07_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Move level"
         },
         "tokens": [
           {
@@ -830,16 +810,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ],
         "args": [
@@ -853,7 +831,7 @@
       {
         "id": "ZG2833K2_EU07_level_stop_with_onoff",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Stop level"
         },
         "args": [
           {
@@ -866,10 +844,10 @@
       {
         "id": "ZG2833K4_EU06_on",
         "title": {
-          "en": "On"
+          "en": "Turned on"
         },
         "titleFormatted": {
-          "en": "Group [[group]] on"
+          "en": "Group [[group]] turned on"
         },
         "args": [
           {
@@ -887,13 +865,13 @@
               {
                 "id": "1",
                 "label": {
-                  "en": "Group 1"
+                  "en": "1"
                 }
               },
               {
                 "id": "2",
                 "label": {
-                  "en": "Group 2"
+                  "en": "2"
                 }
               }
             ]
@@ -903,10 +881,10 @@
       {
         "id": "ZG2833K4_EU06_off",
         "title": {
-          "en": "Off"
+          "en": "Turned off"
         },
         "titleFormatted": {
-          "en": "Group [[group]] off"
+          "en": "Group [[group]] turned off"
         },
         "args": [
           {
@@ -924,13 +902,13 @@
               {
                 "id": "1",
                 "label": {
-                  "en": "Group 1"
+                  "en": "1"
                 }
               },
               {
                 "id": "2",
                 "label": {
-                  "en": "Group 2"
+                  "en": "2"
                 }
               }
             ]
@@ -940,7 +918,7 @@
       {
         "id": "ZG2833K4_EU06_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Move level"
         },
         "titleFormatted": {
           "en": "Group [[group]] move level"
@@ -961,13 +939,13 @@
               {
                 "id": "1",
                 "label": {
-                  "en": "Group 1"
+                  "en": "1"
                 }
               },
               {
                 "id": "2",
                 "label": {
-                  "en": "Group 2"
+                  "en": "2"
                 }
               }
             ]
@@ -979,26 +957,27 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
       {
-        "id": "ZG2833K4_EU06_level_stop_with_onoff",
+        "id": "ZG2833K4_EU06_move_level_up",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Move level up"
         },
         "titleFormatted": {
-          "en": "Group [[group]] stop level"
+          "en": "Group [[group]] move level up"
+        },
+        "hint": {
+          "en": "The rate range from 0.00 to 1.00"
         },
         "args": [
           {
@@ -1016,13 +995,108 @@
               {
                 "id": "1",
                 "label": {
-                  "en": "Group 1"
+                  "en": "1"
                 }
               },
               {
                 "id": "2",
                 "label": {
-                  "en": "Group 2"
+                  "en": "2"
+                }
+              }
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ZG2833K4_EU06_move_level_down",
+        "title": {
+          "en": "Move level down"
+        },
+        "titleFormatted": {
+          "en": "Group [[group]] move level down"
+        },
+        "hint": {
+          "en": "The rate range from 0.00 to 1.00"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZG2833K4_EU06"
+          },
+          {
+            "name": "group",
+            "title": {
+              "en": "Group"
+            },
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "2"
+                }
+              }
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ZG2833K4_EU06_level_stop_with_onoff",
+        "title": {
+          "en": "Move level stopped"
+        },
+        "titleFormatted": {
+          "en": "Group [[group]] move level stopped"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZG2833K4_EU06"
+          },
+          {
+            "name": "group",
+            "title": {
+              "en": "Group"
+            },
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "2"
                 }
               }
             ]
@@ -1032,10 +1106,10 @@
       {
         "id": "ZG2833K8_EU05_on",
         "title": {
-          "en": "On"
+          "en": "Turned on"
         },
         "titleFormatted": {
-          "en": "Group [[group]] on"
+          "en": "Group [[group]] turned on"
         },
         "args": [
           {
@@ -1053,25 +1127,25 @@
               {
                 "id": "1",
                 "label": {
-                  "en": "Group 1"
+                  "en": "1"
                 }
               },
               {
                 "id": "2",
                 "label": {
-                  "en": "Group 2"
+                  "en": "2"
                 }
               },
               {
                 "id": "3",
                 "label": {
-                  "en": "Group 3"
+                  "en": "3"
                 }
               },
               {
                 "id": "4",
                 "label": {
-                  "en": "Group 4"
+                  "en": "4"
                 }
               }
             ]
@@ -1081,10 +1155,10 @@
       {
         "id": "ZG2833K8_EU05_off",
         "title": {
-          "en": "Off"
+          "en": "Turned off"
         },
         "titleFormatted": {
-          "en": "Group [[group]] off"
+          "en": "Group [[group]] turned off"
         },
         "args": [
           {
@@ -1102,25 +1176,25 @@
               {
                 "id": "1",
                 "label": {
-                  "en": "Group 1"
+                  "en": "1"
                 }
               },
               {
                 "id": "2",
                 "label": {
-                  "en": "Group 2"
+                  "en": "2"
                 }
               },
               {
                 "id": "3",
                 "label": {
-                  "en": "Group 3"
+                  "en": "3"
                 }
               },
               {
                 "id": "4",
                 "label": {
-                  "en": "Group 4"
+                  "en": "4"
                 }
               }
             ]
@@ -1130,7 +1204,7 @@
       {
         "id": "ZG2833K8_EU05_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Move level"
         },
         "titleFormatted": {
           "en": "Group [[group]] move level"
@@ -1151,25 +1225,25 @@
               {
                 "id": "1",
                 "label": {
-                  "en": "Group 1"
+                  "en": "1"
                 }
               },
               {
                 "id": "2",
                 "label": {
-                  "en": "Group 2"
+                  "en": "2"
                 }
               },
               {
                 "id": "3",
                 "label": {
-                  "en": "Group 3"
+                  "en": "3"
                 }
               },
               {
                 "id": "4",
                 "label": {
-                  "en": "Group 4"
+                  "en": "4"
                 }
               }
             ]
@@ -1181,26 +1255,27 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
       {
-        "id": "ZG2833K8_EU05_level_stop_with_onoff",
+        "id": "ZG2833K8_EU05_move_level_up",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Move level up"
         },
         "titleFormatted": {
-          "en": "Group [[group]] stop level"
+          "en": "Group [[group]] move level up"
+        },
+        "hint": {
+          "en": "The rate range from 0.00 to 1.00"
         },
         "args": [
           {
@@ -1218,25 +1293,144 @@
               {
                 "id": "1",
                 "label": {
-                  "en": "Group 1"
+                  "en": "1"
                 }
               },
               {
                 "id": "2",
                 "label": {
-                  "en": "Group 2"
+                  "en": "2"
                 }
               },
               {
                 "id": "3",
                 "label": {
-                  "en": "Group 3"
+                  "en": "3"
                 }
               },
               {
                 "id": "4",
                 "label": {
-                  "en": "Group 4"
+                  "en": "4"
+                }
+              }
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ZG2833K8_EU05_move_level_down",
+        "title": {
+          "en": "Move level down"
+        },
+        "titleFormatted": {
+          "en": "Group [[group]] move level down"
+        },
+        "hint": {
+          "en": "The rate range from 0.00 to 1.00"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZG2833K8_EU05"
+          },
+          {
+            "name": "group",
+            "title": {
+              "en": "Group"
+            },
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "4"
+                }
+              }
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ZG2833K8_EU05_level_stop_with_onoff",
+        "title": {
+          "en": "Move level stopped"
+        },
+        "titleFormatted": {
+          "en": "Group [[group]] move level stopped"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZG2833K8_EU05"
+          },
+          {
+            "name": "group",
+            "title": {
+              "en": "Group"
+            },
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "4"
                 }
               }
             ]
@@ -1287,16 +1481,14 @@
             "type": "number",
             "title": {
               "en": "Level"
-            },
-            "example": 0
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -1318,16 +1510,14 @@
             "type": "number",
             "title": {
               "en": "Color temperature"
-            },
-            "example": 0
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -1349,8 +1539,7 @@
             "type": "number",
             "title": {
               "en": "Hue"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -1506,8 +1695,7 @@
             "type": "number",
             "title": {
               "en": "Hue"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -1565,8 +1753,7 @@
             "type": "number",
             "title": {
               "en": "Saturation"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -1624,16 +1811,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 1
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -1691,16 +1876,14 @@
             "type": "number",
             "title": {
               "en": "Group ID"
-            },
-            "example": 0
+            }
           },
           {
             "name": "scene_id",
             "type": "number",
             "title": {
               "en": "Scene ID"
-            },
-            "example": 1
+            }
           }
         ]
       },
@@ -1758,23 +1941,21 @@
             "type": "number",
             "title": {
               "en": "Group ID"
-            },
-            "example": 0
+            }
           },
           {
             "name": "scene_id",
             "type": "number",
             "title": {
               "en": "Scene ID"
-            },
-            "example": 1
+            }
           }
         ]
       },
       {
         "id": "ZG2868A_level_step_with_onoff",
         "title": {
-          "en": "Step level (with On/Off)"
+          "en": "Step level"
         },
         "titleFormatted": {
           "en": "Group [[group]] step level"
@@ -1825,31 +2006,28 @@
             "type": "number",
             "title": {
               "en": "Mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "step_size",
             "type": "number",
             "title": {
               "en": "Step size"
-            },
-            "example": 0.2
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
       {
         "id": "ZG2868A_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Move level"
         },
         "titleFormatted": {
           "en": "Group [[group]] move level"
@@ -1900,23 +2078,21 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
       {
         "id": "ZG2868A_level_stop_with_onoff",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Stop level"
         },
         "titleFormatted": {
           "en": "Group [[group]] stop level"
@@ -2016,24 +2192,21 @@
             "type": "number",
             "title": {
               "en": "Step mode"
-            },
-            "example": 1
+            }
           },
           {
             "name": "step_size",
             "type": "number",
             "title": {
               "en": "Step size"
-            },
-            "example": 0.2
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -2091,16 +2264,14 @@
             "type": "number",
             "title": {
               "en": "Color temperature"
-            },
-            "example": 0
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -2158,16 +2329,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -2300,7 +2469,7 @@
       {
         "id": "ZG9001K4_DIM2_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Move level"
         },
         "titleFormatted": {
           "en": "Group [[group]] move level"
@@ -2339,23 +2508,21 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
       {
         "id": "ZG9001K4_DIM2_level_stop_with_onoff",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Stop level"
         },
         "titleFormatted": {
           "en": "Group [[group]] stop level"
@@ -2418,7 +2585,7 @@
       {
         "id": "ZGRC_KEY_001_level_step_with_onoff",
         "title": {
-          "en": "Step level (with On/Off)"
+          "en": "Step level"
         },
         "args": [
           {
@@ -2433,31 +2600,28 @@
             "type": "number",
             "title": {
               "en": "Mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "step_size",
             "type": "number",
             "title": {
               "en": "Step size"
-            },
-            "example": 0.2
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_001_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Move level"
         },
         "args": [
           {
@@ -2472,23 +2636,21 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_001_level_stop_with_onoff",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Stop level"
         },
         "args": [
           {
@@ -2527,7 +2689,7 @@
       {
         "id": "ZGRC_KEY_002_level_step_with_onoff",
         "title": {
-          "en": "Step level (with On/Off)"
+          "en": "Step level"
         },
         "args": [
           {
@@ -2542,31 +2704,28 @@
             "type": "number",
             "title": {
               "en": "Mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "step_size",
             "type": "number",
             "title": {
               "en": "Step size"
-            },
-            "example": 0.2
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_002_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Move level"
         },
         "args": [
           {
@@ -2581,23 +2740,21 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_002_level_stop_with_onoff",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Stop level"
         },
         "args": [
           {
@@ -2625,16 +2782,14 @@
             "type": "number",
             "title": {
               "en": "Color temperature"
-            },
-            "example": 0
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -2656,16 +2811,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -2714,7 +2867,7 @@
       {
         "id": "ZGRC_KEY_004_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Move level"
         },
         "args": [
           {
@@ -2729,23 +2882,21 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_004_level_stop_with_onoff",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Stop level"
         },
         "args": [
           {
@@ -2784,7 +2935,7 @@
       {
         "id": "ZGRC_KEY_005_level_step_with_onoff",
         "title": {
-          "en": "Step level (with On/Off)"
+          "en": "Step level"
         },
         "args": [
           {
@@ -2799,31 +2950,28 @@
             "type": "number",
             "title": {
               "en": "Mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "step_size",
             "type": "number",
             "title": {
               "en": "Step size"
-            },
-            "example": 0.2
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_005_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Move level"
         },
         "args": [
           {
@@ -2838,23 +2986,21 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_005_level_stop_with_onoff",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Stop level"
         },
         "args": [
           {
@@ -2882,16 +3028,14 @@
             "type": "number",
             "title": {
               "en": "Color temperature"
-            },
-            "example": 0
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -2913,16 +3057,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -2960,24 +3102,21 @@
             "type": "number",
             "title": {
               "en": "Color X"
-            },
-            "example": 0.1
+            }
           },
           {
             "name": "color_y",
             "type": "number",
             "title": {
               "en": "Color Y"
-            },
-            "example": 0.1
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -2999,16 +3138,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -3041,7 +3178,7 @@
       {
         "id": "ZGRC_KEY_007_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Move level"
         },
         "args": [
           {
@@ -3056,23 +3193,21 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_007_level_stop_with_onoff",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Stop level"
         },
         "args": [
           {
@@ -3216,16 +3351,14 @@
             "type": "number",
             "title": {
               "en": "Group ID"
-            },
-            "example": 0
+            }
           },
           {
             "name": "scene_id",
             "type": "number",
             "title": {
               "en": "Scene ID"
-            },
-            "example": 1
+            }
           }
         ]
       },
@@ -3277,23 +3410,21 @@
             "type": "number",
             "title": {
               "en": "Group ID"
-            },
-            "example": 0
+            }
           },
           {
             "name": "scene_id",
             "type": "number",
             "title": {
               "en": "Scene ID"
-            },
-            "example": 1
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_014_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Move level"
         },
         "titleFormatted": {
           "en": "Group [[group]] move level"
@@ -3338,23 +3469,21 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_014_level_stop_with_onoff",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Stop level"
         },
         "titleFormatted": {
           "en": "Group [[group]] stop level"
@@ -3546,16 +3675,14 @@
             "type": "number",
             "title": {
               "en": "Group ID"
-            },
-            "example": 0
+            }
           },
           {
             "name": "scene_id",
             "type": "number",
             "title": {
               "en": "Scene ID"
-            },
-            "example": 1
+            }
           }
         ]
       },
@@ -3613,23 +3740,21 @@
             "type": "number",
             "title": {
               "en": "Group ID"
-            },
-            "example": 0
+            }
           },
           {
             "name": "scene_id",
             "type": "number",
             "title": {
               "en": "Scene ID"
-            },
-            "example": 1
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_037_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Move level"
         },
         "titleFormatted": {
           "en": "Group [[group]] move level"
@@ -3680,23 +3805,21 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
       {
         "id": "ZGRC_KEY_037_level_stop_with_onoff",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Stop level"
         },
         "titleFormatted": {
           "en": "Group [[group]] stop level"
@@ -5045,16 +5168,790 @@
             "filter": "driver_id=ZV9010A"
           }
         ]
+      },
+      {
+        "id": "ZGRC_KEY_009_on",
+        "title": {
+          "en": "Turned on"
+        },
+        "titleFormatted": {
+          "en": "Turned on"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_009"
+          }
+        ]
+      },
+      {
+        "id": "ZGRC_KEY_009_off",
+        "title": {
+          "en": "Turned off"
+        },
+        "titleFormatted": {
+          "en": "Turned off"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_009"
+          }
+        ]
+      },
+      {
+        "id": "ZGRC_KEY_009_level_move_with_onoff_up",
+        "title": {
+          "en": "Move level up"
+        },
+        "titleFormatted": {
+          "en": "Move level up"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_009"
+          }
+        ],
+        "tokens": [
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ZGRC_KEY_009_level_move_with_onoff_down",
+        "title": {
+          "en": "Move level down"
+        },
+        "titleFormatted": {
+          "en": "Move level down"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_009"
+          }
+        ],
+        "tokens": [
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ZGRC_KEY_009_level_stop_with_onoff",
+        "title": {
+          "en": "Move level stopped"
+        },
+        "titleFormatted": {
+          "en": "Move level stopped"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_009"
+          }
+        ]
+      },
+      {
+        "id": "ZGRC_KEY_009_level_step_with_onoff_up",
+        "title": {
+          "en": "Step level up"
+        },
+        "titleFormatted": {
+          "en": "Step level up"
+        },
+        "tokens": [
+          {
+            "name": "percentage",
+            "type": "number",
+            "title": {
+              "en": "Step percentage"
+            }
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_009"
+          }
+        ]
+      },
+      {
+        "id": "ZGRC_KEY_009_level_step_with_onoff_down",
+        "title": {
+          "en": "Step level down"
+        },
+        "titleFormatted": {
+          "en": "Step level down"
+        },
+        "tokens": [
+          {
+            "name": "percentage",
+            "type": "number",
+            "title": {
+              "en": "Step percentage"
+            }
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_009"
+          }
+        ]
+      },
+      {
+        "id": "ZGRC_KEY_009_move_to_color_temperature",
+        "title": {
+          "en": "Move to color temperature"
+        },
+        "titleFormatted": {
+          "en": "Move to color temperature"
+        },
+        "hint": {
+          "en": "The color temperature range from 0.00 to 1.00"
+        },
+        "tokens": [
+          {
+            "name": "color_temperature",
+            "type": "number",
+            "title": {
+              "en": "Color temperature"
+            }
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_009"
+          }
+        ]
+      },
+      {
+        "id": "ZGRC_KEY_009_move_color_temperature_up",
+        "title": {
+          "en": "Move color temperature up"
+        },
+        "titleFormatted": {
+          "en": "Move color temperature up"
+        },
+        "hint": {
+          "en": "The rate range from 0.00 to 1.00"
+        },
+        "tokens": [
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            }
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_009"
+          }
+        ]
+      },
+      {
+        "id": "ZGRC_KEY_009_move_color_temperature_down",
+        "title": {
+          "en": "Move color temperature down"
+        },
+        "titleFormatted": {
+          "en": "Move color temperature down"
+        },
+        "hint": {
+          "en": "The rate range from 0.00 to 1.00"
+        },
+        "tokens": [
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            }
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_009"
+          }
+        ]
+      },
+      {
+        "id": "ZGRC_KEY_009_stop_move_step",
+        "title": {
+          "en": "Move color temperature stopped"
+        },
+        "titleFormatted": {
+          "en": "Move color temperature stopped"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_009"
+          }
+        ]
+      },
+      {
+        "id": "ZGRC_KEY_009_move_to_color",
+        "title": {
+          "en": "Move to XY color"
+        },
+        "titleFormatted": {
+          "en": "Move to XY color"
+        },
+        "tokens": [
+          {
+            "name": "color_x",
+            "type": "number",
+            "title": {
+              "en": "Color X"
+            }
+          },
+          {
+            "name": "color_y",
+            "type": "number",
+            "title": {
+              "en": "Color Y"
+            }
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_009"
+          }
+        ]
+      },
+      {
+        "id": "ZGRC_KEY_009_move_hue_up",
+        "title": {
+          "en": "Move hue up"
+        },
+        "titleFormatted": {
+          "en": "Move hue up"
+        },
+        "hint": {
+          "en": "The rate range from 0.00 to 1.00"
+        },
+        "tokens": [
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            }
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_009"
+          }
+        ]
+      },
+      {
+        "id": "ZGRC_KEY_009_move_hue_down",
+        "title": {
+          "en": "Move hue down"
+        },
+        "titleFormatted": {
+          "en": "Move hue down"
+        },
+        "hint": {
+          "en": "The rate range from 0.00 to 1.00"
+        },
+        "tokens": [
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            }
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_009"
+          }
+        ]
+      },
+      {
+        "id": "ZGRC_KEY_009_move_hue_stop",
+        "title": {
+          "en": "Move hue stopped"
+        },
+        "titleFormatted": {
+          "en": "Move hue stopped"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_009"
+          }
+        ]
+      },
+      {
+        "id": "ZGRC_KEY_009_recall_scene_s1",
+        "title": {
+          "en": "Recall scene S1"
+        },
+        "titleFormatted": {
+          "en": "Recall scene S1"
+        },
+        "hint": {
+          "en": "Recall the saved scene."
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_009"
+          }
+        ]
+      },
+      {
+        "id": "ZGRC_KEY_009_recall_scene_s2",
+        "title": {
+          "en": "Recall scene S2"
+        },
+        "titleFormatted": {
+          "en": "Recall scene S2"
+        },
+        "hint": {
+          "en": "Recall the saved scene."
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_009"
+          }
+        ]
+      },
+      {
+        "id": "ZGRC_KEY_009_store_scene_s1",
+        "title": {
+          "en": "Store scene S1"
+        },
+        "titleFormatted": {
+          "en": "Store scene S1"
+        },
+        "hint": {
+          "en": "Save the current state of your bulb as a scene, to recall later."
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_009"
+          }
+        ]
+      },
+      {
+        "id": "ZGRC_KEY_009_store_scene_s2",
+        "title": {
+          "en": "Store scene S2"
+        },
+        "titleFormatted": {
+          "en": "Store scene S2"
+        },
+        "hint": {
+          "en": "Save the current state of your bulb as a scene, to recall later."
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_009"
+          }
+        ]
+      },
+      {
+        "id": "zgrc_key_013_on",
+        "title": {
+          "en": "Turned on"
+        },
+        "titleFormatted": {
+          "en": "Group [[group]] turned on"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_013"
+          },
+          {
+            "name": "group",
+            "title": {
+              "en": "Group"
+            },
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "4"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "zgrc_key_013_off",
+        "title": {
+          "en": "Turned off"
+        },
+        "titleFormatted": {
+          "en": "Group [[group]] turned off"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_013"
+          },
+          {
+            "name": "group",
+            "title": {
+              "en": "Group"
+            },
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "4"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "zgrc_key_013_move_level_up",
+        "title": {
+          "en": "Move level up"
+        },
+        "titleFormatted": {
+          "en": "Group [[group]] move level up"
+        },
+        "hint": {
+          "en": "The rate range from 0.00 to 1.00"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_013"
+          },
+          {
+            "name": "group",
+            "title": {
+              "en": "Group"
+            },
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "4"
+                }
+              }
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            }
+          }
+        ]
+      },
+      {
+        "id": "zgrc_key_013_move_level_down",
+        "title": {
+          "en": "Move level down"
+        },
+        "titleFormatted": {
+          "en": "Group [[group]] move level down"
+        },
+        "hint": {
+          "en": "The rate range from 0.00 to 1.00"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_013"
+          },
+          {
+            "name": "group",
+            "title": {
+              "en": "Group"
+            },
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "4"
+                }
+              }
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            }
+          }
+        ]
+      },
+      {
+        "id": "zgrc_key_013_move_level_stopped",
+        "title": {
+          "en": "Move level stopped"
+        },
+        "titleFormatted": {
+          "en": "Group [[group]] move level stopped"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_013"
+          },
+          {
+            "name": "group",
+            "title": {
+              "en": "Group"
+            },
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "4"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "zgrc_key_013_recall_scene",
+        "title": {
+          "en": "Recall scene"
+        },
+        "titleFormatted": {
+          "en": "Recall scene [[group]]"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_013"
+          },
+          {
+            "name": "group",
+            "title": {
+              "en": "Scene ID"
+            },
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "2"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "zgrc_key_013_store_scene",
+        "title": {
+          "en": "Store scene"
+        },
+        "titleFormatted": {
+          "en": "Store scene [[group]]"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_013"
+          },
+          {
+            "name": "group",
+            "title": {
+              "en": "Scene ID"
+            },
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "2"
+                }
+              }
+            ]
+          }
+        ]
       }
     ],
     "actions": [
       {
         "id": "ZG9040A_S_level_step_with_onoff",
         "title": {
-          "en": "Step level (with On/Off)"
+          "en": "Step level"
         },
         "titleFormatted": {
           "en": "Step level [[mode]], size [[step_size]], transition [[transition_time]]"
+        },
+        "hint": {
+          "en": "Change the brightness step by step. Assign a step mode, 0 equals up, 1 equals down."
         },
         "duration": false,
         "args": [
@@ -5070,7 +5967,7 @@
             "max": 1,
             "step": 1,
             "title": {
-              "en": "Mode, { 0 } means up, { 1 } means down, other values are invalid."
+              "en": "Mode"
             }
           },
           {
@@ -5093,7 +5990,7 @@
             "max": 6553,
             "step": 1,
             "title": {
-              "en": "Transition time, range { 0 ~ 6553 } seconds."
+              "en": "Transition time, the ranging from 0 to 65535 seconds."
             }
           }
         ]
@@ -5101,7 +5998,7 @@
       {
         "id": "ZG9040A_S_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Move level"
         },
         "titleFormatted": {
           "en": "Move level [[move_mode]], rate [[rate]]"
@@ -5120,7 +6017,7 @@
             "max": 1,
             "step": 1,
             "title": {
-              "en": "Move mode, { 0 } means up, { 1 } means down, other values are invalid."
+              "en": "Move Mode"
             }
           },
           {
@@ -5139,7 +6036,7 @@
       {
         "id": "ZG9040A_S_level_stop_with_onoff",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Stop level"
         },
         "duration": false,
         "args": [
@@ -5158,6 +6055,9 @@
         "titleFormatted": {
           "en": "Group [[group_id]] recall scene [[scene_id]]"
         },
+        "hint": {
+          "en": "Recall the saved scene."
+        },
         "args": [
           {
             "type": "device",
@@ -5168,7 +6068,7 @@
             "name": "group_id",
             "type": "number",
             "title": {
-              "en": "Group ID, default { 0 }"
+              "en": "Group ID"
             }
           },
           {
@@ -5188,6 +6088,9 @@
         "titleFormatted": {
           "en": "Group [[group_id]] store scene [[scene_id]]"
         },
+        "hint": {
+          "en": "Save the current state of your bulb as a scene, to recall later. To store your scene set a unique Group ID number, 0 is default and a unique Scene ID."
+        },
         "args": [
           {
             "type": "device",
@@ -5198,7 +6101,7 @@
             "name": "group_id",
             "type": "number",
             "title": {
-              "en": "Group ID, default { 0 }"
+              "en": "Group ID"
             }
           },
           {
@@ -5213,10 +6116,13 @@
       {
         "id": "ZG9101SAC_HP_level_step_with_onoff",
         "title": {
-          "en": "Step level (with On/Off)"
+          "en": "Step level"
         },
         "titleFormatted": {
           "en": "Step level [[mode]], size [[step_size]], transition [[transition_time]]"
+        },
+        "hint": {
+          "en": "Change the brightness step by step. Assign a step mode, 0 equals up, 1 equals down."
         },
         "duration": false,
         "args": [
@@ -5232,7 +6138,7 @@
             "max": 1,
             "step": 1,
             "title": {
-              "en": "Mode, { 0 } means up, { 1 } means down, other values are invalid."
+              "en": "Mode"
             }
           },
           {
@@ -5255,7 +6161,7 @@
             "max": 6553,
             "step": 1,
             "title": {
-              "en": "Transition time, range { 0 ~ 6553 } seconds."
+              "en": "Transition time, the ranging from 0 to 65535 seconds."
             }
           }
         ]
@@ -5263,7 +6169,7 @@
       {
         "id": "ZG9101SAC_HP_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Move level"
         },
         "titleFormatted": {
           "en": "Move level [[move_mode]], rate [[rate]]"
@@ -5282,7 +6188,7 @@
             "max": 1,
             "step": 1,
             "title": {
-              "en": "Move mode, { 0 } means up, { 1 } means down, other values are invalid."
+              "en": "Move Mode"
             }
           },
           {
@@ -5301,7 +6207,7 @@
       {
         "id": "ZG9101SAC_HP_level_stop_with_onoff",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Stop level"
         },
         "duration": false,
         "args": [
@@ -5320,6 +6226,9 @@
         "titleFormatted": {
           "en": "Group [[group_id]] recall scene [[scene_id]]"
         },
+        "hint": {
+          "en": "Recall the saved scene."
+        },
         "args": [
           {
             "type": "device",
@@ -5330,7 +6239,7 @@
             "name": "group_id",
             "type": "number",
             "title": {
-              "en": "Group ID, default { 0 }"
+              "en": "Group ID"
             }
           },
           {
@@ -5350,6 +6259,9 @@
         "titleFormatted": {
           "en": "Group [[group_id]] store scene [[scene_id]]"
         },
+        "hint": {
+          "en": "Save the current state of your bulb as a scene, to recall later. To store your scene set a unique Group ID number, 0 is default and a unique Scene ID."
+        },
         "args": [
           {
             "type": "device",
@@ -5360,7 +6272,7 @@
             "name": "group_id",
             "type": "number",
             "title": {
-              "en": "Group ID, default { 0 }"
+              "en": "Group ID"
             }
           },
           {
@@ -5375,10 +6287,13 @@
       {
         "id": "ZG_CCT_LIGHT_level_step_with_onoff",
         "title": {
-          "en": "Step level (with On/Off)"
+          "en": "Step level"
         },
         "titleFormatted": {
           "en": "Step level [[mode]], size [[step_size]], transition [[transition_time]]"
+        },
+        "hint": {
+          "en": "Change the brightness step by step. Assign a step mode, 0 equals up, 1 equals down."
         },
         "duration": false,
         "args": [
@@ -5394,7 +6309,7 @@
             "max": 1,
             "step": 1,
             "title": {
-              "en": "Mode, { 0 } means up, { 1 } means down, other values are invalid."
+              "en": "Mode"
             }
           },
           {
@@ -5417,7 +6332,7 @@
             "max": 6553,
             "step": 1,
             "title": {
-              "en": "Transition time, range { 0 ~ 6553 } seconds."
+              "en": "Transition time, the ranging from 0 to 65535 seconds."
             }
           }
         ]
@@ -5425,7 +6340,7 @@
       {
         "id": "ZG_CCT_LIGHT_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Move level"
         },
         "titleFormatted": {
           "en": "Move level [[move_mode]], rate [[rate]]"
@@ -5444,7 +6359,7 @@
             "max": 1,
             "step": 1,
             "title": {
-              "en": "Move mode, { 0 } means up, { 1 } means down, other values are invalid."
+              "en": "Move Mode"
             }
           },
           {
@@ -5463,7 +6378,7 @@
       {
         "id": "ZG_CCT_LIGHT_level_stop_with_onoff",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Stop level"
         },
         "duration": false,
         "args": [
@@ -5480,7 +6395,10 @@
           "en": "Step color temperature"
         },
         "titleFormatted": {
-          "en": "Step color temperature [[step_mode]], size [[step_size]], transition [[transition_time]]"
+          "en": "Step color temperature [[step_mode]], step size [[step_size]], transition [[transition_time]]"
+        },
+        "hint": {
+          "en": "Change the color temperature step by step. Assign a step mode, 1 equals up, 3 equals down."
         },
         "duration": false,
         "args": [
@@ -5496,7 +6414,7 @@
             "max": 3,
             "step": 1,
             "title": {
-              "en": "Step mode, { 1 } means up, { 3 } means down, other values are invalid."
+              "en": "Step mode"
             }
           },
           {
@@ -5517,7 +6435,7 @@
             "max": 6553,
             "step": 1,
             "title": {
-              "en": "Transition time, range { 0 ~ 6553 } seconds."
+              "en": "Transition time, the ranging from 0 to 65535 seconds."
             }
           }
         ]
@@ -5544,7 +6462,7 @@
             "max": 3,
             "step": 1,
             "title": {
-              "en": "Move mode, { 0 } means stop, { 1 } means up, { 3 } means down, other values are invalid."
+              "en": "Move mode"
             }
           },
           {
@@ -5585,6 +6503,9 @@
         "titleFormatted": {
           "en": "Group [[group_id]] recall scene [[scene_id]]"
         },
+        "hint": {
+          "en": "Recall the saved scene."
+        },
         "args": [
           {
             "type": "device",
@@ -5595,7 +6516,7 @@
             "name": "group_id",
             "type": "number",
             "title": {
-              "en": "Group ID, default { 0 }"
+              "en": "Group ID"
             }
           },
           {
@@ -5615,6 +6536,9 @@
         "titleFormatted": {
           "en": "Group [[group_id]] store scene [[scene_id]]"
         },
+        "hint": {
+          "en": "Save the current state of your bulb as a scene, to recall later. To store your scene set a unique Group ID number, 0 is default and a unique Scene ID."
+        },
         "args": [
           {
             "type": "device",
@@ -5625,7 +6549,7 @@
             "name": "group_id",
             "type": "number",
             "title": {
-              "en": "Group ID, default { 0 }"
+              "en": "Group ID"
             }
           },
           {
@@ -5640,10 +6564,13 @@
       {
         "id": "ZG_COLOR_LIGHT_level_step_with_onoff",
         "title": {
-          "en": "Step level (with On/Off)"
+          "en": "Step level"
         },
         "titleFormatted": {
           "en": "Step level [[mode]], size [[step_size]], transition [[transition_time]]"
+        },
+        "hint": {
+          "en": "Change the brightness step by step. Assign a step mode, 0 equals up, 1 equals down."
         },
         "duration": false,
         "args": [
@@ -5659,7 +6586,7 @@
             "max": 1,
             "step": 1,
             "title": {
-              "en": "Mode, { 0 } means up, { 1 } means down, other values are invalid."
+              "en": "Mode"
             }
           },
           {
@@ -5682,7 +6609,7 @@
             "max": 6553,
             "step": 1,
             "title": {
-              "en": "Transition time, range { 0 ~ 6553 } seconds."
+              "en": "Transition time, the ranging from 0 to 65535 seconds."
             }
           }
         ]
@@ -5690,7 +6617,7 @@
       {
         "id": "ZG_COLOR_LIGHT_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Move level"
         },
         "titleFormatted": {
           "en": "Move level [[move_mode]], rate [[rate]]"
@@ -5709,7 +6636,7 @@
             "max": 1,
             "step": 1,
             "title": {
-              "en": "Move mode, { 0 } means up, { 1 } means down, other values are invalid."
+              "en": "Move Mode"
             }
           },
           {
@@ -5728,7 +6655,7 @@
       {
         "id": "ZG_COLOR_LIGHT_level_stop_with_onoff",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Stop level"
         },
         "duration": false,
         "args": [
@@ -5747,6 +6674,9 @@
         "titleFormatted": {
           "en": "Move hue [[move_mode]], rate [[rate]]"
         },
+        "hint": {
+          "en": "Change the color temperature continuously. Assign a mode move, 0 equals stop, 1 equals up, 3 equals down."
+        },
         "duration": false,
         "args": [
           {
@@ -5761,7 +6691,7 @@
             "max": 3,
             "step": 1,
             "title": {
-              "en": "Move mode, { 0 } means stop, { 1 } means up, { 3 } means down, other values are invalid."
+              "en": "Move mode"
             }
           },
           {
@@ -5799,7 +6729,7 @@
             "max": 3,
             "step": 1,
             "title": {
-              "en": "Move mode, { 0 } means stop, { 1 } means up, { 3 } means down, other values are invalid."
+              "en": "Move mode"
             }
           },
           {
@@ -5821,7 +6751,10 @@
           "en": "Step color temperature"
         },
         "titleFormatted": {
-          "en": "Step color temperature [[step_mode]], size [[step_size]], transition [[transition_time]]"
+          "en": "Step color temperature [[step_mode]], step size [[step_size]], transition [[transition_time]]"
+        },
+        "hint": {
+          "en": "Change the color temperature step by step. Assign a step mode, 1 equals up, 3 equals down."
         },
         "duration": false,
         "args": [
@@ -5837,7 +6770,7 @@
             "max": 3,
             "step": 1,
             "title": {
-              "en": "Step mode, { 1 } means up, { 3 } means down, other values are invalid."
+              "en": "Step mode"
             }
           },
           {
@@ -5858,7 +6791,7 @@
             "max": 6553,
             "step": 1,
             "title": {
-              "en": "Transition time, range { 0 ~ 6553 } seconds."
+              "en": "Transition time, the ranging from 0 to 65535 seconds."
             }
           }
         ]
@@ -5885,7 +6818,7 @@
             "max": 3,
             "step": 1,
             "title": {
-              "en": "Move mode, { 0 } means stop, { 1 } means up, { 3 } means down, other values are invalid."
+              "en": "Move mode"
             }
           },
           {
@@ -5926,6 +6859,9 @@
         "titleFormatted": {
           "en": "Group [[group_id]] recall scene [[scene_id]]"
         },
+        "hint": {
+          "en": "Recall the saved scene."
+        },
         "args": [
           {
             "type": "device",
@@ -5936,7 +6872,7 @@
             "name": "group_id",
             "type": "number",
             "title": {
-              "en": "Group ID, default { 0 }"
+              "en": "Group ID"
             }
           },
           {
@@ -5956,6 +6892,9 @@
         "titleFormatted": {
           "en": "Group [[group_id]] store scene [[scene_id]]"
         },
+        "hint": {
+          "en": "Save the current state of your bulb as a scene, to recall later. To store your scene set a unique Group ID number, 0 is default and a unique Scene ID."
+        },
         "args": [
           {
             "type": "device",
@@ -5966,7 +6905,7 @@
             "name": "group_id",
             "type": "number",
             "title": {
-              "en": "Group ID, default { 0 }"
+              "en": "Group ID"
             }
           },
           {
@@ -5981,10 +6920,13 @@
       {
         "id": "ZG_DIM_LIGHT_level_step_with_onoff",
         "title": {
-          "en": "Step level (with On/Off)"
+          "en": "Step level"
         },
         "titleFormatted": {
           "en": "Step level [[mode]], size [[step_size]], transition [[transition_time]]"
+        },
+        "hint": {
+          "en": "Change the brightness step by step. Assign a step mode, 0 equals up, 1 equals down."
         },
         "duration": false,
         "args": [
@@ -6000,7 +6942,7 @@
             "max": 1,
             "step": 1,
             "title": {
-              "en": "Mode, { 0 } means up, { 1 } means down, other values are invalid."
+              "en": "Mode"
             }
           },
           {
@@ -6023,7 +6965,7 @@
             "max": 6553,
             "step": 1,
             "title": {
-              "en": "Transition time, range { 0 ~ 6553 } seconds."
+              "en": "Transition time, the ranging from 0 to 65535 seconds."
             }
           }
         ]
@@ -6031,7 +6973,7 @@
       {
         "id": "ZG_DIM_LIGHT_level_move_with_onoff",
         "title": {
-          "en": "Move level (with On/Off)"
+          "en": "Move level"
         },
         "titleFormatted": {
           "en": "Move level [[move_mode]], rate [[rate]]"
@@ -6050,7 +6992,7 @@
             "max": 1,
             "step": 1,
             "title": {
-              "en": "Move mode, { 0 } means up, { 1 } means down, other values are invalid."
+              "en": "Move Mode"
             }
           },
           {
@@ -6069,7 +7011,7 @@
       {
         "id": "ZG_DIM_LIGHT_level_stop_with_onoff",
         "title": {
-          "en": "Stop level (with On/Off)"
+          "en": "Stop level"
         },
         "duration": false,
         "args": [
@@ -6088,6 +7030,9 @@
         "titleFormatted": {
           "en": "Group [[group_id]] recall scene [[scene_id]]"
         },
+        "hint": {
+          "en": "Recall the saved scene."
+        },
         "args": [
           {
             "type": "device",
@@ -6098,7 +7043,7 @@
             "name": "group_id",
             "type": "number",
             "title": {
-              "en": "Group ID, default { 0 }"
+              "en": "Group ID"
             }
           },
           {
@@ -6118,6 +7063,9 @@
         "titleFormatted": {
           "en": "Group [[group_id]] store scene [[scene_id]]"
         },
+        "hint": {
+          "en": "Save the current state of your bulb as a scene, to recall later. To store your scene set a unique Group ID number, 0 is default and a unique Scene ID."
+        },
         "args": [
           {
             "type": "device",
@@ -6128,7 +7076,7 @@
             "name": "group_id",
             "type": "number",
             "title": {
-              "en": "Group ID, default { 0 }"
+              "en": "Group ID"
             }
           },
           {
@@ -6211,7 +7159,7 @@
         "learnmode": {
           "image": "/drivers/ZG2819S_RGBW/assets/learnmode.svg",
           "instruction": {
-            "en": "# Pairing\nStep 1: Remove the remote from previous zigbee network if it has already been added to it, otherwise pairing will fail. Please refer to the part \"Factory Reset Manually\".\nStep 2: Press and hold down \"Prog.\" button until LED indicator turns on.\nStep 3: Immediately short press \"S1\" button to search nearby network, indicator flashes every 1 second, 20 seconds timeout if there is no network. Indicator will then blink 5 times quickly for successful pairing.\n\n# Factory Reset Manually\nStep 1: Press and hold down \"Prog.\" button until LED indicator turns on.\nStep 2: Immediately short press 5 times \"Prog.\" button continuously, indicator flashes 3 times quickly to indicate successful reset."
+            "en": "Press and hold down Prog button until LED indicator turns on. Immediately short press S1 button.\n\nIf pairing fails reset the device by press and hold down Prog button until LED indicator turns on, immediately short press 5 times Prog button quickly."
           }
         }
       },
@@ -6260,7 +7208,7 @@
         "learnmode": {
           "image": "/drivers/ZG2833K2_EU07/assets/learnmode.svg",
           "instruction": {
-            "en": "Press and hold down both buttons until the LED indicator turns on.\nRelease both button and immediately press the Pair button on the top right corner and the remote will be set to pair mode.\nThe LED indicator blinking several times will indicate successful inclusion.\n\nReset...\nWhen you can't successfully add a device, reset the device first.\nPress and hold down both buttons until the LED indicator turns on.\nRelease both button and immediately press the Pair button 5 times and the remote will be reset."
+            "en": "Press and hold down both buttons until the LED indicator turns on. Release both button and immediately press the Pair button on the top right.\n\nIf pairing fails reset the device by press and hold down both buttons until the LED indicator turns on. Release both button and immediately press the Pair button 5 times quickly."
           }
         }
       },
@@ -6273,7 +7221,7 @@
     {
       "id": "ZG2833K4_EU06",
       "name": {
-        "en": "ZG2833K4_EU06"
+        "en": "ZG9001K4-DIM2"
       },
       "class": "remote",
       "capabilities": [
@@ -6318,7 +7266,7 @@
         "learnmode": {
           "image": "/drivers/ZG2833K4_EU06/assets/learnmode.svg",
           "instruction": {
-            "en": "Press and hold down both Reset and Pair buttons until the LED indicator turns on.\nRelease both button and immediately press the Pair button on the top right corner and the remote will be set to pair mode.\nThe LED indicator blinking several times will indicate successful inclusion.\n\nReset...\nWhen you can't successfully add a device, reset the device first.\nPress and hold down both Reset and Pair buttons until the LED indicator turns on.\nRelease both button and immediately press the Reset button 5 times and the remote will be reset."
+            "en": "Press and hold down both Reset and Pair buttons until the LED indicator turns on. Release both button and immediately press the Pair button on the top right corner.\n\nIf pairing fails reset the device. Press and hold down both Reset and Pair buttons until the LED indicator turns on. Release both button and immediately press the Reset button 5 times quickly."
           }
         }
       },
@@ -6331,7 +7279,7 @@
     {
       "id": "ZG2833K8_EU05",
       "name": {
-        "en": "ZG2833K8_EU05"
+        "en": "ZG9001K8-DIM"
       },
       "class": "remote",
       "capabilities": [
@@ -6394,7 +7342,7 @@
         "learnmode": {
           "image": "/drivers/ZG2833K8_EU05/assets/learnmode.svg",
           "instruction": {
-            "en": "Press and hold down both Reset and Pair buttons until the LED indicator turns on.\nRelease both button and immediately press the Pair button on the top right corner and the remote will be set to pair mode.\nThe LED indicator blinking several times will indicate successful inclusion.\n\nReset...\nWhen you can't successfully add a device, reset the device first.\nPress and hold down both Reset and Pair buttons until the LED indicator turns on.\nRelease both button and immediately press the Reset button 5 times and the remote will be reset."
+            "en": "Press and hold down both Reset and Pair buttons until the LED indicator turns on. Release both button and immediately press the Pair button on the top right corner.\n\nIf pairing fails reset the device. Press and hold down both Reset and Pair buttons until the LED indicator turns on. Release both button and immediately press the Reset button 5 times quickly."
           }
         }
       },
@@ -6443,7 +7391,7 @@
         "learnmode": {
           "image": "/drivers/ZG2835/assets/learnmode.svg",
           "instruction": {
-            "en": "Short press the knob 5 times continuously.\nWithin 2 seconds press and hold the knob for over 3 seconds, indicator flashes every 1 second. Indicator will then blink 5 times quickly for successful pairing.\n\nRemove the switch from previous ZigBee network if it has already been added to it, otherwise pairing will fail.\nShort press the knob 5 times continuously and quickly.\nWithin 2 seconds press and hold the knob for over 3 seconds, indicator will flash 3 times for successful reset."
+            "en": "Short press the knob 5 times quickly. Within 2 seconds press and hold the knob for over 3 seconds.\n\nIf pairing fails reset the device. Short press the knob 5 times quickly. Within 2 seconds press and hold the knob for over 3 seconds."
           }
         }
       },
@@ -6520,7 +7468,7 @@
         "learnmode": {
           "image": "/drivers/ZG2868A/assets/learnmode.svg",
           "instruction": {
-            "en": "Press and hold down the Reset button until the LED indicator turns on.\nRelease the button and immediately press the Pair button and the remote will be set to pair mode.\n\nReset...\nWhen you can't successfully add a device, reset the device first.\nPress and hold down the Reset button until the LED indicator turns on.\nRelease the button and immediately press the Reset button 5 times and the remote will be reset."
+            "en": "Press and hold down the Reset button until the LED indicator turns on. Release the button and immediately press the Pair button.\n\nIf pairing fails reset the device. Press and hold down the Reset button until the LED indicator turns on. Release the button and immediately press the Reset button 5 times quickly."
           }
         }
       },
@@ -6578,7 +7526,7 @@
         "learnmode": {
           "image": "/drivers/ZG9001K4_DIM2/assets/learnmode.svg",
           "instruction": {
-            "en": "Press and hold down both Reset and Pair buttons until the LED indicator turns on.\nRelease both button and immediately press the Pair button on the top right corner and the remote will be set to pair mode.\nThe LED indicator blinking several times will indicate successful inclusion.\n\nReset...\nWhen you can't successfully add a device, reset the device first.\nPress and hold down both Reset and Pair buttons until the LED indicator turns on.\nRelease both button and immediately press the Reset button 5 times and the remote will be reset."
+            "en": "Press and hold down both Reset and Pair buttons until the LED indicator turns on. Release both button and immediately press the Pair button on the top right corner.\n\nIf pairing fails reset the device. Press and hold down both Reset and Pair buttons until the LED indicator turns on. Release both button and immediately press the Reset button 5 times quickly."
           }
         }
       },
@@ -6650,7 +7598,7 @@
         "learnmode": {
           "image": "/drivers/ZG9040A_S/assets/learnmode.svg",
           "instruction": {
-            "en": "# Pairing\nStep 1: Remove the device from previous zigbee network if it has already been added to, otherwise pairing will fail. Please refer to the part \"Factory Reset Manually\".\nStep 2: From your ZigBee Controller or hub interface, choose to add lighting device and enter Pairing mode as instructed by the controller.\nStep 3: Re-power on the device to set it into network pairing mode (connected light flashes twice slowly), 15 seconds timeout, repeat the operation.\nStep 4: Connected light will blink 5 times and then stay solid on, then the device will appear in your controller's menu and can be controlled through controller or hub interface.\n\n# Factory Reset Manually\nStep 1: Short press “Reset.” key for 5 times continuously or re-power on the device for 5 times continuously if\nthe “Prog.” key is not accessible.\nStep 2: Connected light will blink 3 times to indicate successful reset."
+            "en": "Re-power on the device.\n\nIf pairing fails reset the device. Short press Reset button for 5 times quickly or re-power on the device for 5 times quickly."
           }
         }
       },
@@ -6706,7 +7654,7 @@
         "learnmode": {
           "image": "/drivers/ZG9080A/assets/learnmode.svg",
           "instruction": {
-            "en": "# Pairing\nShort press button K2 5 times continuously (Or reset power of the device for 5 times continuously).\n\n# Factory reset\nShort press button K2 5 times continuously (Or reset power of the device for 5 times continuously)."
+            "en": "Short press K2 button for 5 times quickly or reset power of the device for 5 times quickly.\n\nIf pairing fails reset the device. Short press K2 button for 5 times quickly or reset power of the device for 5 times quickly."
           }
         }
       },
@@ -6763,7 +7711,7 @@
         "learnmode": {
           "image": "/drivers/ZG9100A_S/assets/learnmode.svg",
           "instruction": {
-            "en": "# Pairing\nStep 1: Remove the device from previous zigbee network if it has already been added to, otherwise pairing will\nfail. Please refer to the part \"Factory Reset Manually\".\nStep 2: From your ZigBee Controller or hub interface, choose to add lighting device and enter Pairing mode as instructed by the controller.\nStep 3: Re-power on the device to set it into network pairing mode (connected light flashes twice slowly), 15 seconds timeout, repeat the operation.\nStep 4: Connected light will blink 5 times and then stay solid on, then the device will appear in your controller's menu and can be controlled through controller or hub interface.\n\n# Factory Reset Manually\nStep 1: Short press \"Reset.\" key for 5 times continuously or re-power on the device for 5 times continuously if the \"Prog.\" key is not accessible.\nStep 2: Connected light will blink 3 times to indicate successful reset."
+            "en": "Re-power on the device.\n\nIf pairing fails reset the device. Short press Reset button for 5 times quickly or re-power on the device for 5 times quickly."
           }
         }
       },
@@ -6829,10 +7777,15 @@
         "zigbee"
       ],
       "zigbee": {
-        "manufacturerName": "Sunricher",
+        "manufacturerName": [
+          "Sunricher",
+          "Nordtronic A/S"
+        ],
         "productId": [
           "ZG9101SAC-HP",
-          "HK-LN-DIM-A"
+          "HK-LN-DIM-A",
+          "BoxDIMZ 98425031",
+          "BoxRelayZ 98423051"
         ],
         "endpoints": {
           "1": {
@@ -6855,7 +7808,7 @@
         "learnmode": {
           "image": "/drivers/ZG9101SAC_HP/assets/learnmode.svg",
           "instruction": {
-            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+            "en": "Press the Reset button on the device 5 times quickly or re-power on the device for 5 times quickly."
           }
         }
       },
@@ -6863,7 +7816,36 @@
         "large": "/drivers/ZG9101SAC_HP/assets/images/large.png",
         "small": "/drivers/ZG9101SAC_HP/assets/images/small.png"
       },
-      "settings": []
+      "settings": [
+        {
+          "id": "external_switch_type",
+          "type": "dropdown",
+          "label": {
+            "en": "External Switch Type"
+          },
+          "value": "push_button",
+          "values": [
+            {
+              "id": "push_button",
+              "label": {
+                "en": "Push Button"
+              }
+            },
+            {
+              "id": "normal_on_off",
+              "label": {
+                "en": "Normal On/Off"
+              }
+            },
+            {
+              "id": "three_channels",
+              "label": {
+                "en": "Three Channels"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "ZG9101SAC_HP_SWITCH",
@@ -6882,10 +7864,14 @@
         "zigbee"
       ],
       "zigbee": {
-        "manufacturerName": "Sunricher",
+        "manufacturerName": [
+          "Sunricher",
+          "MLI"
+        ],
         "productId": [
           "ON/OFF",
-          "ZG9101SAC-HP-Switch"
+          "ZG9101SAC-HP-Switch",
+          "tint Smart Switch"
         ],
         "endpoints": {
           "1": {
@@ -6906,7 +7892,7 @@
         "learnmode": {
           "image": "/drivers/ZG9101SAC_HP_SWITCH/assets/learnmode.svg",
           "instruction": {
-            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+            "en": "Press the Reset button on the device 5 times quickly or re-power on the device for 5 times quickly."
           }
         }
       },
@@ -6915,6 +7901,121 @@
         "small": "/drivers/ZG9101SAC_HP_SWITCH/assets/images/small.png"
       },
       "settings": []
+    },
+    {
+      "name": {
+        "en": "ZG OnOff Light (B)"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "measure_power",
+        "meter_power"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
+      "zigbee": {
+        "manufacturerName": [
+          "Sunricher"
+        ],
+        "productId": [
+          "ON/OFF -M",
+          "ON/OFF-M"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              6,
+              1794,
+              2820
+            ],
+            "bindings": [
+              6,
+              1794,
+              2820
+            ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/ZG9101SAC_HP_SWITCH_B/assets/learnmode.svg",
+          "instruction": {
+            "en": "Press the Reset button on the device 5 times quickly or re-power on the device for 5 times quickly."
+          }
+        }
+      },
+      "images": {
+        "small": "/drivers/ZG9101SAC_HP_SWITCH_B/assets/images/small.png",
+        "large": "/drivers/ZG9101SAC_HP_SWITCH_B/assets/images/large.png"
+      },
+      "id": "ZG9101SAC_HP_SWITCH_B"
+    },
+    {
+      "name": {
+        "en": "ZG OnOff (2CH)"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "measure_power",
+        "meter_power",
+        "light_channel_one_onoff",
+        "light_channel_two_onoff"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
+      "zigbee": {
+        "manufacturerName": [
+          "Sunricher"
+        ],
+        "productId": [
+          "ON/OFF(2CH)"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              6,
+              1794,
+              2820
+            ],
+            "bindings": [
+              6,
+              1794,
+              2820
+            ]
+          },
+          "2": {
+            "clusters": [
+              6,
+              1794,
+              2820
+            ],
+            "bindings": [
+              6,
+              1794,
+              2820
+            ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/ZG9101SAC_HP_Switch_2CH/assets/learnmode.svg",
+          "instruction": {
+            "en": "Press the Reset button on the device 5 times quickly or re-power on the device for 5 times quickly."
+          }
+        }
+      },
+      "images": {
+        "small": "/drivers/ZG9101SAC_HP_Switch_2CH/assets/images/small.png",
+        "large": "/drivers/ZG9101SAC_HP_Switch_2CH/assets/images/large.png"
+      },
+      "id": "ZG9101SAC_HP_Switch_2CH"
     },
     {
       "id": "ZGRC_KEY_001",
@@ -6956,7 +8057,7 @@
         "learnmode": {
           "image": "/drivers/ZGRC_KEY_001/assets/learnmode.svg",
           "instruction": {
-            "en": "Press and hold down the Reset button until the LED indicator turns on.\nRelease button and immediately press the Pair button and the remote will be set to pair mode.\nThe LED indicator blinking several times will indicate successful inclusion.\n\nReset...\nWhen you can't successfully add a device, reset the device first.\nPress and hold down the Reset button until the LED indicator turns on.\nRelease the button and immediately press the Reset button 5 times and the remote will be reset."
+            "en": "Press and hold down the Reset button until the LED indicator turns on. Release button and immediately press the Pair button.\n\nIf pairing fails reset the device. Press and hold down the Reset button until the LED indicator turns on. Release the button and immediately press the Reset button 5 times quickly."
           }
         }
       },
@@ -7006,7 +8107,7 @@
         "learnmode": {
           "image": "/drivers/ZGRC_KEY_002/assets/learnmode.svg",
           "instruction": {
-            "en": "Press and hold down the Reset button until the LED indicator turns on.\nRelease button and immediately press the Pair button and the remote will be set to pair mode.\nThe LED indicator blinking several times will indicate successful inclusion.\n\nReset...\nWhen you can't successfully add a device, reset the device first.\nPress and hold down the Reset button until the LED indicator turns on.\nRelease the button and immediately press the Reset button 5 times and the remote will be reset."
+            "en": "Press and hold down the Reset button until the LED indicator turns on. Release button and immediately press the Pair button.\n\nIf pairing fails reset the device. Press and hold down the Reset button until the LED indicator turns on. Release the button and immediately press the Reset button 5 times quickly."
           }
         }
       },
@@ -7056,7 +8157,7 @@
         "learnmode": {
           "image": "/drivers/ZGRC_KEY_004/assets/learnmode.svg",
           "instruction": {
-            "en": "Press and hold down both buttons until LED indicator turns on. \nImmediately short press pair button to search nearby network, indicator flashes every 1 second, 20 seconds timeout if there is no network. Indicator will then blink 5 times quickly for successful pairing. \n\nRemove the remote from previous zigbee network if it has already been added to it, otherwise pairing will fail. \nPress and hold down both buttons until LED indicator turns on. Immediately short press pair button 5 times continuously, indicator flashes 3 times quickly to indicate successful reset."
+            "en": "Press and hold down both buttons until LED indicator turns on. Immediately short press pair button.\n\nIf pairing fails reset the device. Press and hold down both buttons until LED indicator turns on. Immediately short press pair button 5 times quickly."
           }
         }
       },
@@ -7106,7 +8207,7 @@
         "learnmode": {
           "image": "/drivers/ZGRC_KEY_005/assets/learnmode.svg",
           "instruction": {
-            "en": "Press and hold down the Reset button until the LED indicator turns on.\nRelease button and immediately press the Pair button and the remote will be set to pair mode.\nThe LED indicator blinking several times will indicate successful inclusion.\n\nReset...\nWhen you can't successfully add a device, reset the device first.\nPress and hold down the Reset button until the LED indicator turns on.\nRelease the button and immediately press the Reset button 5 times and the remote will be reset."
+            "en": "Press and hold down the Reset button until the LED indicator turns on. Release button and immediately press the Pair button.\n\nIf pairing fails reset the device. Press and hold down the Reset button until the LED indicator turns on. Release the button and immediately press the Reset button 5 times quickly."
           }
         }
       },
@@ -7156,7 +8257,7 @@
         "learnmode": {
           "image": "/drivers/ZGRC_KEY_007/assets/learnmode.svg",
           "instruction": {
-            "en": "Press and hold down both buttons until LED indicator turns on. \nImmediately short press pair button to search nearby network, indicator flashes every 1 second, 20 seconds timeout if there is no network. Indicator will then blink 5 times quickly for successful pairing. \n\nRemove the remote from previous zigbee network if it has already been added to it, otherwise pairing will fail. \nPress and hold down both buttons until LED indicator turns on. Immediately short press pair button 5 times continuously, indicator flashes 3 times quickly to indicate successful reset."
+            "en": "Press and hold down both buttons until LED indicator turns on. Immediately short press pair button.\n\nIf pairing fails reset the device. Press and hold down both buttons until LED indicator turns on. Immediately short press pair button 5 times quickly."
           }
         }
       },
@@ -7224,7 +8325,7 @@
         "learnmode": {
           "image": "/drivers/ZGRC_KEY_014/assets/learnmode.svg",
           "instruction": {
-            "en": "Press and hold down reset button until LED indicator turns on. \nImmediately short press pair button to search nearby network, indicator flashes every 1 second, 20 seconds timeout if there is no network. Indicator will then blink 5 times quickly for successful pairing. \n\nRemove the remote from previous zigbee network if it has already been added to it, otherwise pairing will fail. \nPress and hold down reset button until LED indicator turns on. Immediately short press reset button 5 times continuously, indicator flashes 3 times quickly to indicate successful reset."
+            "en": "Press and hold down reset button until LED indicator turns on. Immediately short press pair button.\n\nIf pairing fails reset the device. Press and hold down reset button until LED indicator turns on. Immediately short press reset button 5 times quickly."
           }
         }
       },
@@ -7301,7 +8402,7 @@
         "learnmode": {
           "image": "/drivers/ZGRC_KEY_037/assets/learnmode.svg",
           "instruction": {
-            "en": "Press and hold down reset button until LED indicator turns on. \nImmediately short press pair button to search nearby network, indicator flashes every 1 second, 20 seconds timeout if there is no network. Indicator will then blink 5 times quickly for successful pairing. \n\nRemove the remote from previous zigbee network if it has already been added to it, otherwise pairing will fail. \nPress and hold down reset button until LED indicator turns on. Immediately short press reset button 5 times continuously, indicator flashes 3 times quickly to indicate successful reset."
+            "en": "Press and hold down reset button until LED indicator turns on. Immediately short press pair button.\n\nIf pairing fails reset the device. Press and hold down reset button until LED indicator turns on. Immediately short press reset button 5 times quickly."
           }
         }
       },
@@ -7372,7 +8473,7 @@
         "learnmode": {
           "image": "/drivers/ZG_CCT_LIGHT/assets/learnmode.svg",
           "instruction": {
-            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+            "en": "Press the Reset button on the device 5 times quickly or re-power on the device for 5 times quickly."
           }
         }
       },
@@ -7458,7 +8559,7 @@
         "learnmode": {
           "image": "/drivers/ZG_COLOR_LIGHT/assets/learnmode.svg",
           "instruction": {
-            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+            "en": "Press the Reset button on the device 5 times quickly or re-power on the device for 5 times quickly."
           }
         }
       },
@@ -7521,7 +8622,7 @@
         "learnmode": {
           "image": "/drivers/ZG_DIM_LIGHT/assets/learnmode.svg",
           "instruction": {
-            "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+            "en": "Press the Reset button on the device 5 times quickly or re-power on the device for 5 times quickly."
           }
         }
       },
@@ -7568,6 +8669,9 @@
         "zwave"
       ],
       "zwave": {
+        "security": [
+          "none"
+        ],
         "manufacturerId": 816,
         "productTypeId": [
           512
@@ -7575,11 +8679,10 @@
         "productId": [
           53271
         ],
-        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV2835RAC_S/assets/learnmode.svg",
           "instruction": {
-            "en": "# Pair\nTriple press the reset button.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold the reset button for over 10 seconds."
+            "en": "Triple press the reset button.\n\nIf pairing fails reset the device. Press and hold the reset button for over 10 seconds."
           }
         },
         "associationGroups": [
@@ -7615,6 +8718,9 @@
         "zwave"
       ],
       "zwave": {
+        "security": [
+          "none"
+        ],
         "manufacturerId": 816,
         "productTypeId": [
           768
@@ -7622,11 +8728,10 @@
         "productId": [
           45826
         ],
-        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9001K12_DIM_Z4/assets/learnmode.svg",
           "instruction": {
-            "en": "# Pair\nPress and hold down both buttons I and O for over 3 seconds.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold down both buttons I and O for over 10 seconds."
+            "en": "Press and hold down both buttons I and O for over 3 seconds.\n\nIf pairing fails reset the device. Press and hold down both buttons I and O for over 10 seconds."
           }
         },
         "associationGroups": [
@@ -7692,6 +8797,9 @@
         "zwave"
       ],
       "zwave": {
+        "security": [
+          "none"
+        ],
         "manufacturerId": 816,
         "productTypeId": [
           768
@@ -7699,11 +8807,10 @@
         "productId": [
           41743
         ],
-        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9001K2_DIM/assets/learnmode.svg",
           "instruction": {
-            "en": "# Pair\nPress and hold down both buttons over 3 seconds.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold down both buttons together for over 10 seconds."
+            "en": "Press and hold down both buttons over 3 seconds.\n\nIf pairing fails reset the device. Press and hold down both buttons together for over 10 seconds."
           }
         },
         "associationGroups": [
@@ -7751,6 +8858,9 @@
         "zwave"
       ],
       "zwave": {
+        "security": [
+          "none"
+        ],
         "manufacturerId": 816,
         "productTypeId": [
           768
@@ -7758,11 +8868,10 @@
         "productId": [
           41735
         ],
-        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9001K2_DIM2/assets/learnmode.svg",
           "instruction": {
-            "en": "# Pairing\nPress and hold down both I and O buttons over 3 seconds.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold down both I and O buttons together for over 10 seconds."
+            "en": "Press and hold down both I and O buttons over 3 seconds.\n\nIf pairing fails reset the device. Press and hold down both I and O buttons together for over 10 seconds."
           }
         },
         "associationGroups": [
@@ -7810,6 +8919,9 @@
         "zwave"
       ],
       "zwave": {
+        "security": [
+          "none"
+        ],
         "manufacturerId": 816,
         "productTypeId": [
           768
@@ -7817,11 +8929,10 @@
         "productId": [
           41744
         ],
-        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9001K4_DIM/assets/learnmode.svg",
           "instruction": {
-            "en": "# Pair\nPress and hold down both buttons I and O over 3 seconds.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold down both buttons I and O for over 10 seconds."
+            "en": "Press and hold down both buttons I and O over 3 seconds.\n\nIf pairing fails reset the device. Press and hold down both buttons I and O for over 10 seconds."
           }
         },
         "associationGroups": [
@@ -7869,6 +8980,9 @@
         "zwave"
       ],
       "zwave": {
+        "security": [
+          "none"
+        ],
         "manufacturerId": 816,
         "productTypeId": [
           768
@@ -7876,11 +8990,10 @@
         "productId": [
           41734
         ],
-        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9001K4_DIM_G2/assets/learnmode.svg",
           "instruction": {
-            "en": "# Pair\nPress and hold down both buttons I and O over 3 seconds.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold down both buttons I and O for over 10 seconds."
+            "en": "Press and hold down both buttons I and O over 3 seconds.\n\nIf pairing fails reset the device. Press and hold down both buttons I and O for over 10 seconds."
           }
         },
         "associationGroups": [
@@ -7934,6 +9047,9 @@
         "zwave"
       ],
       "zwave": {
+        "security": [
+          "none"
+        ],
         "manufacturerId": 816,
         "productTypeId": [
           768
@@ -7941,11 +9057,10 @@
         "productId": [
           41733
         ],
-        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9001K8_DIM_G4/assets/learnmode.svg",
           "instruction": {
-            "en": "# Pair\nPress and hold down both buttons I and O over 3 seconds.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold down both buttons I and O for over 10 seconds."
+            "en": "Press and hold down both buttons I and O over 3 seconds.\n\nIf pairing fails reset the device. Press and hold down both buttons I and O for over 10 seconds."
           }
         },
         "associationGroups": [
@@ -8013,6 +9128,9 @@
         "zwave"
       ],
       "zwave": {
+        "security": [
+          "none"
+        ],
         "manufacturerId": 816,
         "productTypeId": [
           768
@@ -8020,11 +9138,10 @@
         "productId": [
           53251
         ],
-        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9010A/assets/learnmode.svg",
           "instruction": {
-            "en": " # Pair\nTriple press the action button.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold down action button for over 10 seconds."
+            "en": "Triple press the action button.\n\nIf pairing fails reset the device. Press and hold down action button for over 10 seconds."
           }
         },
         "associationGroups": [
@@ -8082,7 +9199,7 @@
         "learnmode": {
           "image": "/drivers/ZV9020A/assets/learnmode.svg",
           "instruction": {
-            "en": "# Pair\nTriple press the action button on the smart plug.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold down action button for over 10 seconds."
+            "en": "Triple press the action button on the smart plug.\n\nIf pairing fails reset the device. Press and hold down action button for over 10 seconds."
           }
         },
         "associationGroups": [
@@ -8134,6 +9251,9 @@
         "zwave"
       ],
       "zwave": {
+        "security": [
+          "none"
+        ],
         "manufacturerId": 816,
         "productTypeId": [
           512
@@ -8141,11 +9261,10 @@
         "productId": [
           53260
         ],
-        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9040A_S/assets/learnmode.svg",
           "instruction": {
-            "en": "# Pairing\nTriple press the action button.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold down the action button for over 10 seconds."
+            "en": "Triple press the action button.\n\nIf pairing fails reset the device. Press and hold down the action button for over 10 seconds."
           }
         },
         "associationGroups": [
@@ -8188,6 +9307,9 @@
         "zwave"
       ],
       "zwave": {
+        "security": [
+          "none"
+        ],
         "manufacturerId": [
           816
         ],
@@ -8198,11 +9320,10 @@
           53267,
           53285
         ],
-        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9092A/assets/learnmode.svg",
           "instruction": {
-            "en": "# Pair\n1) At OFF mode (Off icon), press and hold up and down buttons at the same time for over 5 seconds to enter Settings Menu.\n2) Short press move up and down button to select a settings item, then short press button F to enter selected item.\n3) Select \"Add\", then short press button F.\n\n# Factory Reset\nEnter settings item, select \"Reset\", then short press button F."
+            "en": "Turn the device to OFF mode first, then press and hold UP and DOWN buttons at the same time for over 5 seconds to enter Settings Menu. \n\nShort press UP and DOWN button to select ZWAVE SET item, then short press F button. First select Remove item until it is OK, then select Add item.\n\nIf pairing fails reset the device by select Reset item."
           }
         },
         "associationGroups": [
@@ -8244,6 +9365,9 @@
         "zwave"
       ],
       "zwave": {
+        "security": [
+          "none"
+        ],
         "manufacturerId": 816,
         "productTypeId": [
           512
@@ -8251,11 +9375,10 @@
         "productId": [
           53263
         ],
-        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9100A_S/assets/learnmode.svg",
           "instruction": {
-            "en": "# Pairing\nTriple press the action button.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold down the action button for over 10 seconds."
+            "en": "Triple press the action button.\n\nIf pairing fails reset the device. Press and hold down the action button for over 10 seconds."
           }
         },
         "associationGroups": [
@@ -8302,6 +9425,9 @@
         "zwave"
       ],
       "zwave": {
+        "security": [
+          "none"
+        ],
         "manufacturerId": 816,
         "productTypeId": [
           512
@@ -8309,11 +9435,10 @@
         "productId": [
           53250
         ],
-        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9101CS/assets/learnmode.svg",
           "instruction": {
-            "en": "# Pair\nTriple press the reset button.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold the reset button for over 10 seconds."
+            "en": "Triple press the reset button.\n\nIf pairing fails reset the device. Press and hold the reset button for over 10 seconds."
           }
         },
         "associationGroups": [
@@ -8353,6 +9478,9 @@
         "zwave"
       ],
       "zwave": {
+        "security": [
+          "none"
+        ],
         "manufacturerId": 816,
         "productTypeId": [
           512
@@ -8360,11 +9488,10 @@
         "productId": [
           53253
         ],
-        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9101SAC_HP/assets/learnmode.svg",
           "instruction": {
-            "en": "# Pair\nTriple press the reset button.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold the reset button for over 10 seconds."
+            "en": "Triple press the reset button.\n\nIf pairing fails reset the device. Press and hold the reset button for over 10 seconds."
           }
         },
         "associationGroups": [
@@ -8393,6 +9520,9 @@
         "zwave"
       ],
       "zwave": {
+        "security": [
+          "none"
+        ],
         "manufacturerId": 816,
         "productTypeId": [
           512
@@ -8400,20 +9530,425 @@
         "productId": [
           53254
         ],
-        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9101SAC_HP_SWITCH/assets/learnmode.svg",
           "instruction": {
-            "en": "# Pair\nTriple press the reset button.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold the reset button for over 10 seconds."
+            "en": "Triple press the reset button.\n\nIf pairing fails reset the device. Press and hold the reset button for over 10 seconds."
           }
         },
         "associationGroups": [
           1
         ]
       }
+    },
+    {
+      "name": {
+        "en": "ZV9101SAC-HP-SWITCH-2CH"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "measure_power",
+        "meter_power"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zwave"
+      ],
+      "images": {
+        "small": "/drivers/ZV9101SAC_HP_SWITCH_2CH/assets/images/small.png",
+        "large": "/drivers/ZV9101SAC_HP_SWITCH_2CH/assets/images/large.png"
+      },
+      "zwave": {
+        "security": [
+          "none"
+        ],
+        "manufacturerId": 816,
+        "productTypeId": [
+          4
+        ],
+        "productId": [
+          53513
+        ],
+        "learnmode": {
+          "image": "/drivers/ZV9101SAC_HP_SWITCH_2CH/assets/learnmode.svg",
+          "instruction": {
+            "en": "Triple press the reset button.\n\nIf pairing fails reset the device. Press and hold the reset button for over 10 seconds."
+          }
+        },
+        "associationGroups": [
+          1
+        ],
+        "multiChannelNodes": {
+          "2": {
+            "name": {
+              "en": "ZV9101SAC-HP-SWITCH 2nd"
+            },
+            "class": "light",
+            "capabilities": [
+              "onoff"
+            ]
+          }
+        }
+      },
+      "id": "ZV9101SAC_HP_SWITCH_2CH",
+      "settings": []
+    },
+    {
+      "name": {
+        "en": "ZV9101SAC-HP-SWITCH-B"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "measure_power",
+        "meter_power"
+      ],
+      "images": {
+        "large": "/drivers/ZV9101SAC_HP_SWITCH_B/assets/images/large.png",
+        "small": "/drivers/ZV9101SAC_HP_SWITCH_B/assets/images/small.png"
+      },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zwave"
+      ],
+      "zwave": {
+        "security": [
+          "none"
+        ],
+        "manufacturerId": 816,
+        "productTypeId": [
+          4
+        ],
+        "productId": [
+          53273
+        ],
+        "learnmode": {
+          "image": "/drivers/ZV9101SAC_HP_SWITCH_B/assets/learnmode.svg",
+          "instruction": {
+            "en": "Triple press the reset button.\n\nIf pairing fails reset the device. Press and hold the reset button for over 10 seconds."
+          }
+        },
+        "associationGroups": [
+          1
+        ]
+      },
+      "id": "ZV9101SAC_HP_SWITCH_B",
+      "settings": []
+    },
+    {
+      "name": {
+        "en": "ZG9092"
+      },
+      "class": "thermostat",
+      "capabilities": [
+        "measure_power",
+        "meter_power",
+        "measure_temperature",
+        "target_temperature",
+        "onoff",
+        "my_thermostat_mode",
+        "my_thermostat_away_mode",
+        "my_thermostat_control_type",
+        "my_thermostat_room_sensor",
+        "my_thermostat_floor_sensor"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
+      "zigbee": {
+        "manufacturerName": [
+          "Sunricher"
+        ],
+        "productId": [
+          "ZG9092"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              513,
+              1794,
+              2820
+            ],
+            "bindings": [
+              513,
+              1794,
+              2820
+            ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/zg9092/assets/learnmode.svg",
+          "instruction": {
+            "en": "Turn the device to OFF mode first, then press and hold UP and DOWN buttons at the same time for over 5 seconds to enter Settings Menu. Short press UP and DOWN button to select ADD item, then short press button F.\n\nIf pairing fails reset the device by select Reset item, then short press button F."
+          }
+        }
+      },
+      "images": {
+        "small": "/drivers/zg9092/assets/images/small.png",
+        "large": "/drivers/zg9092/assets/images/large.png"
+      },
+      "id": "zg9092",
+      "settings": [
+        {
+          "type": "group",
+          "label": {
+            "en": "Device Settings"
+          },
+          "children": [
+            {
+              "id": "hysteresis",
+              "type": "number",
+              "label": {
+                "en": "Hysteresis"
+              },
+              "value": 0.5,
+              "min": 0.5,
+              "max": 5,
+              "units": {
+                "en": "℃"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "ZGRC_KEY_009"
+      },
+      "class": "remote",
+      "capabilities": [
+        "measure_battery"
+      ],
+      "energy": {
+        "batteries": [
+          "CR2450"
+        ]
+      },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
+      "images": {
+        "small": "/drivers/zgrc_key_009/assets/images/small.png",
+        "large": "/drivers/zgrc_key_009/assets/images/large.png"
+      },
+      "zigbee": {
+        "manufacturerName": "Sunricher",
+        "productId": [
+          "ZGRC_KEY_009",
+          "ZGRC-KEY-009"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              1,
+              3,
+              768,
+              2821
+            ],
+            "bindings": []
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/zgrc_key_009/assets/learnmode.svg",
+          "instruction": {
+            "en": "Press and hold down the Reset button until the LED indicator turns on. Release button and immediately press the Pair button.\n\nIf pairing fails reset the device. Press and hold down the Reset button until the LED indicator turns on. Release the button and immediately press the Reset button 5 times quickly."
+          }
+        }
+      },
+      "settings": [],
+      "id": "zgrc_key_009"
+    },
+    {
+      "name": {
+        "en": "ZG9001K12-DIM-Z4"
+      },
+      "class": "remote",
+      "capabilities": [
+        "measure_battery"
+      ],
+      "energy": {
+        "batteries": [
+          "OTHER"
+        ]
+      },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
+      "images": {
+        "small": "/drivers/zgrc_key_013/assets/images/small.png",
+        "large": "/drivers/zgrc_key_013/assets/images/large.png"
+      },
+      "zigbee": {
+        "manufacturerName": "Sunricher",
+        "productId": [
+          "ZGRC_KEY_013",
+          "ZGRC-KEY-013"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              1,
+              3,
+              2821
+            ],
+            "bindings": []
+          },
+          "2": {
+            "clusters": [
+              0,
+              1,
+              3,
+              2821
+            ],
+            "bindings": []
+          },
+          "3": {
+            "clusters": [
+              0,
+              1,
+              3,
+              2821
+            ],
+            "bindings": []
+          },
+          "4": {
+            "clusters": [
+              0,
+              1,
+              3,
+              2821
+            ],
+            "bindings": []
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/zgrc_key_013/assets/learnmode.svg",
+          "instruction": {
+            "en": "Short press both I and O keys together 3 times quickly.\n\nIf pairing fails reset the device. Short press both I and O keys together 3 times quickly."
+          }
+        }
+      },
+      "settings": [],
+      "id": "zgrc_key_013"
     }
   ],
   "capabilities": {
+    "light_channel_one_onoff": {
+      "type": "boolean",
+      "title": {
+        "en": "Channel 1"
+      },
+      "getable": true,
+      "setable": true,
+      "uiComponent": "toggle",
+      "uiQuickAction": false
+    },
+    "light_channel_two_onoff": {
+      "type": "boolean",
+      "title": {
+        "en": "Channel 2"
+      },
+      "getable": true,
+      "setable": true,
+      "uiComponent": "toggle",
+      "uiQuickAction": false
+    },
+    "my_thermostat_away_mode": {
+      "title": {
+        "en": "Leave Home"
+      },
+      "type": "boolean",
+      "setable": false,
+      "getable": true,
+      "uiComponent": null
+    },
+    "my_thermostat_control_type": {
+      "title": {
+        "en": "Control Type"
+      },
+      "type": "string",
+      "setable": false,
+      "getable": true,
+      "uiComponent": null
+    },
+    "my_thermostat_floor_sensor": {
+      "title": {
+        "en": "Floor Sensor"
+      },
+      "type": "number",
+      "setable": false,
+      "getable": true,
+      "uiComponent": "sensor",
+      "units": {
+        "en": "℃"
+      },
+      "icon": "/assets/temperature_icon.svg"
+    },
+    "my_thermostat_mode": {
+      "title": {
+        "en": "Thermostat Mode"
+      },
+      "type": "enum",
+      "setable": true,
+      "getable": true,
+      "uiComponent": "picker",
+      "values": [
+        {
+          "id": "off",
+          "title": {
+            "en": "Off"
+          }
+        },
+        {
+          "id": "auto",
+          "title": {
+            "en": "Auto"
+          }
+        },
+        {
+          "id": "heat",
+          "title": {
+            "en": "Manual"
+          }
+        },
+        {
+          "id": "dry",
+          "title": {
+            "en": "Dry"
+          }
+        }
+      ]
+    },
+    "my_thermostat_room_sensor": {
+      "title": {
+        "en": "Room Sensor"
+      },
+      "type": "number",
+      "setable": false,
+      "getable": true,
+      "uiComponent": "sensor",
+      "units": {
+        "en": "℃"
+      },
+      "icon": "/assets/temperature_icon.svg"
+    },
     "my_ZV9092A_floor_sensor": {
       "title": {
         "en": "Floor Sensor"

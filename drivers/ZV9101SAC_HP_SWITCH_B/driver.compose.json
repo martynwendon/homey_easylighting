@@ -1,0 +1,36 @@
+{
+  "name": {
+    "en": "ZV9101SAC-HP-SWITCH-B"
+  },
+  "class": "light",
+  "capabilities": [
+    "onoff",
+    "measure_power",
+    "meter_power"
+  ],
+  "images": {
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "small": "{{driverAssetsPath}}/images/small.png"
+  },
+  "platforms": ["local"],
+  "connectivity": ["zwave"],
+  "zwave": {
+    "security": ["none"],
+    "manufacturerId": 816,
+    "productTypeId": [
+      4
+    ],
+    "productId": [
+      53273
+    ],
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/learnmode.svg",
+      "instruction": {
+        "en": "Triple press the reset button.\n\nIf pairing fails reset the device. Press and hold the reset button for over 10 seconds."
+      }
+    },
+    "associationGroups": [
+      1
+    ]
+  }
+}
